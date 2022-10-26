@@ -1,4 +1,4 @@
-const array = []
+const array = [];
 
 for (let i = 0; i < 6; i++) {
     const numero = Number(prompt('Inserisci un numero'));
@@ -8,4 +8,9 @@ for (let i = 0; i < 6; i++) {
     }
 }
 
-console.log("Numeri dispari: ", array);
+if (array.length > 0){
+    console.log("Numeri dispari: ", array);
+}
+else{
+    console.log("Non sono stati inseriti numeri dispari");
+}
