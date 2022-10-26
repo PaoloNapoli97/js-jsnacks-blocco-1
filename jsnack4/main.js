@@ -1,4 +1,4 @@
-const invitati = ["Lazzaro", "Peppino Detto il Ladro", "YokoPokoMaYoko", "Capobranco Paguri"]
+const invitati = ["Lazzaro", "Peppino Detto il Ladro", "YokoPokoMaYoko", "Capobranco Paguri"];
 const utente = prompt('Insirisci il tuo nome');
 let check= false;
 
