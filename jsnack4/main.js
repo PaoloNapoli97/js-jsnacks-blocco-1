@@ -9,7 +9,7 @@ for (let i = 0; i < invitati.length; i++) {
     }
 }
 
-if(check == true){
+if(check === true){
     console.log('Benvenuto alla festa del grande Gatsby');
 }
 else{
