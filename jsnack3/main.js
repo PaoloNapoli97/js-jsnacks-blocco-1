@@ -2,7 +2,7 @@
 let somma = 0;
 
 for (let i = 0; i < 10; i++) {
-    const numeri = parseInt(prompt('inserisci un numero: '));
+    const numeri = Number(prompt('inserisci un numero: '));
     console.log(i);
     somma += numeri;
 }
