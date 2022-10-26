@@ -4,6 +4,9 @@ const wordtwo = prompt("inserisci un'altra parola");
 if(wordone.length > wordtwo.length){
     console.log(wordone , wordtwo);
 }
-else{
+else if(wordone.length < wordtwo.length){
     console.log(wordtwo, wordone);
+}
+else{
+    console.log("Le parole hanno la stessa lunghezza");
 }
