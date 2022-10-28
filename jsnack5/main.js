@@ -1,12 +1,18 @@
 "use strict";
 
-const array = ["1", "2", "3", "4", "5", "6"];
-const somma = 0;
+const array = [];
 
-for (let i = 0; i < array.length; i++) {
-    if(i % 2 == 1){
-        somma = array[i]
+for (let i = 0; i < 6; i++) {
+    const numero = Number(prompt('Inserisci un numero'));
+    console.log("Numeri Inseriti: ", numero);
+    if(numero % 2 == 1){
+        array.push(numero);
     }
 }
 
-console.log(somma);
+if (array.length > 0){
+    console.log("Numeri dispari: ", array);
+}
+else{
+    console.log("Non sono stati inseriti numeri dispari");
+}
